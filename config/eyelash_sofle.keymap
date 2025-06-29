@@ -75,16 +75,40 @@
     behaviors {
     };
 
+    combos {
+        compatible = "zmk,combos";
+
+        backspace {
+            bindings = <&kp BACKSPACE>;
+            key-positions = <21 22>;
+        };
+
+        delete {
+            bindings = <&kp DELETE>;
+            key-positions = <22 23>;
+        };
+
+        para_left {
+            bindings = <&kp LEFT_PARENTHESIS>;
+            key-positions = <34 35>;
+        };
+
+        para_right {
+            bindings = <&kp RIGHT_PARENTHESIS>;
+            key-positions = <35 36>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
         querty {
             bindings = <
-&kp ESC           &kp N1                 &kp N2             &kp N3               &kp N4              &kp N5       &kp UP_ARROW     &kp N6     &kp N7              &kp N8                &kp N9              &kp N0                     &kp MINUS
-&kp TAB           &kp Q                  &kp W              &kp E                &kp R               &kp T        &kp DOWN_ARROW   &kp Y      &kp U               &kp I                 &kp O               &kp P                      &kp BSLH
-&kp GRAVE         &hrm_l LEFT_CONTROL A  &hrm_l LEFT_ALT S  &hrm_l LEFT_SHIFT D  &hrm_l RIGHT_GUI F  &kp G        &kp LEFT_ARROW   &kp H      &hrm_r RIGHT_GUI J  &hrm_r RIGHT_SHIFT K  &hrm_r RIGHT_ALT L  &hrm_r RIGHT_CONTROL SEMI  &kp APOS
-&kp LEFT_BRACKET  &kp Z                  &kp X              &kp C                &kp V               &kp B        &kp RIGHT_ARROW  &kp N      &kp M               &kp COMMA             &kp DOT             &kp FSLH                   &kp RBKT
-&kp C_MUTE        &kp LEFT_CONTROL       &kp LEFT_GUI       &mo 1                &kp LEFT_ALT        &kp SPACE    &kp ENTER        &kp SPACE  &kp ENTER           &mo 2                 &kp BACKSPACE       &kp RIGHT_SHIFT
+&kp ESC           &kp N1             &kp N2             &kp N3               &kp N4                 &kp N5       &kp UP_ARROW     &kp N6     &kp N7                  &kp N8                &kp N9              &kp N0                 &kp MINUS
+&kp TAB           &kp Q              &kp W              &kp E                &kp R                  &kp T        &kp DOWN_ARROW   &kp Y      &kp U                   &kp I                 &kp O               &kp P                  &kp BSLH
+&kp GRAVE         &hrm_l LEFT_GUI A  &hrm_l LEFT_ALT S  &hrm_l LEFT_SHIFT D  &hrm_l LEFT_CONTROL F  &kp G        &kp LEFT_ARROW   &kp H      &hrm_r RIGHT_CONTROL J  &hrm_r RIGHT_SHIFT K  &hrm_r RIGHT_ALT L  &hrm_r RIGHT_GUI SEMI  &kp APOS
+&kp LEFT_BRACKET  &kp Z              &kp X              &kp C                &kp V                  &kp B        &kp RIGHT_ARROW  &kp N      &kp M                   &kp COMMA             &kp DOT             &kp FSLH               &kp RBKT
+&kp C_MUTE        &kp LEFT_CONTROL   &kp LEFT_GUI       &mo 1                &kp LEFT_ALT           &kp SPACE    &kp ENTER        &kp SPACE  &kp ENTER               &mo 2                 &kp BACKSPACE       &kp RIGHT_SHIFT
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
@@ -106,11 +130,11 @@
 
         num {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans         &trans           &trans           &trans           &trans           &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &kp KP_DIVIDE  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_MULTIPLY  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &kp KP_MINUS   &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp KP_PLUS      &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans         &kp KP_NUMBER_1  &kp KP_N2        &kp KP_NUMBER_3  &kp KP_N0        &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans         &trans           &trans           &trans           &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &kp KP_NUMLOCK  &trans           &trans           &trans           &trans           &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &kp KP_DIVIDE   &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_MULTIPLY  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &kp KP_MINUS    &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp KP_PLUS      &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans          &kp KP_NUMBER_1  &kp KP_N2        &kp KP_NUMBER_3  &kp KP_N0        &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans          &trans           &trans           &trans           &trans
             >;
 
             label = "num";
