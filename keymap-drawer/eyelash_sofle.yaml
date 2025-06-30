@@ -413,7 +413,7 @@ combos:
   k: {t: C, h: '$$mdi:apple-keyboard-command$$'}
   l: [querty]
 - p: [42, 43]
-  k: Gui+P
+  k: {t: V, h: '$$mdi:apple-keyboard-command$$'}
   l: [querty]
 - p: [43, 41]
   k: {t: X, h: '$$mdi:apple-keyboard-command$$'}
@@ -423,6 +423,7 @@ combos:
   l: [querty]
 - p: [48, 49]
   k: {t: ']', s: '}'}
+  l: [querty]
 - p: [15, 28]
   k: '@'
   l: [querty]
