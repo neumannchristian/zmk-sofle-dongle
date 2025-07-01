@@ -2,8 +2,10 @@ manifest:
   remotes:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
-    - name: gpeye
-      url-base: https://github.com/GPeye
+#    - name: gpeye
+#      url-base: https://github.com/GPeye
+    - name: infely
+      url-base: https://github.com/infely
     - name: tokyo2006
       url-base: https://github.com/tokyo2006
     - name: englmaxi
