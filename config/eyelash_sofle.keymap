@@ -108,7 +108,7 @@
 
         escape {
             bindings = <&kp ESCAPE>;
-            key-positions = <15 16>;
+            key-positions = <16 17>;
             require-prior-idle-ms = <150>;
             layers = <0>;
         };
