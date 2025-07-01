@@ -242,20 +242,32 @@
 &kp TAB                           &kp Q              &kp W              &kp E                &kp R                  &kp T        &kp DOWN_ARROW   &kp Y      &kp U                   &kp I                 &kp O               &kp P                  &kp BSLH
 &hrm_l LEFT_SHIFT GRAVE           &hrm_l LEFT_GUI A  &hrm_l LEFT_ALT S  &hrm_l LEFT_SHIFT D  &hrm_l LEFT_CONTROL F  &kp G        &kp LEFT_ARROW   &kp H      &hrm_r RIGHT_CONTROL J  &hrm_r RIGHT_SHIFT K  &hrm_r RIGHT_ALT L  &hrm_r RIGHT_GUI SEMI  &hrm_r RIGHT_SHIFT APOS
 &hrm_l LEFT_CONTROL LEFT_BRACKET  &kp Z              &kp X              &kp C                &kp V                  &kp B        &kp RIGHT_ARROW  &kp N      &kp M                   &kp COMMA             &kp DOT             &kp FSLH               &hrm_r RIGHT_CONTROL RBKT
-&kp C_MUTE                        &kp LEFT_CONTROL   &kp LEFT_GUI       &mo 1                &kp LEFT_ALT           &kp SPACE    &kp ENTER        &kp SPACE  &kp ENTER               &mo 2                 &kp BACKSPACE       &kp RIGHT_SHIFT
+&kp C_MUTE                        &kp LEFT_CONTROL   &kp LEFT_GUI       &mo 2                &kp LEFT_ALT           &kp SPACE    &kp ENTER        &kp SPACE  &kp ENTER               &mo 3                 &kp BACKSPACE       &kp RIGHT_SHIFT
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
             display-name = "querty";
         };
 
+        mine {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans     &trans   &trans  &trans
+&trans  &kp J   &kp L   &kp U   &kp A   &kp Q     &trans  &kp W   &kp B   &kp D      &kp G    &kp Y   &kp Z
+&trans  &kp C   &kp R   &kp I   &kp E   &kp O     &trans  &kp M   &kp N   &kp T      &kp S    &kp H   &trans
+&trans  &kp V   &kp X   &trans  &trans  &trans    &trans  &kp P   &kp F   &kp COMMA  &kp DOT  &kp K   &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans     &trans   &trans
+            >;
+
+            label = "mine";
+        };
+
         nav {
             bindings = <
-&kp F1    &kp F2       &kp F3          &kp F4          &kp F5           &kp F6           &mmv MOVE_UP     &kp F7           &kp F8           &kp F9      &kp F10    &kp F11           &kp F12
-&trans    &kp PAGE_UP  &kp BACKSPACE   &kp UP_ARROW    &kp DEL          &kp PAGE_DOWN    &mmv MOVE_DOWN   &kp PG_UP        &kp END          &kp UP      &kp HOME   &kp MINUS         &kp EQUAL
-&trans    &kp HOME     &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp END          &mmv MOVE_LEFT   &kp PG_DN        &kp LEFT         &kp DOWN    &kp RIGHT  &kp LEFT_BRACKET  &kp RIGHT_BRACKET
-&trans    &trans       &kp TAB         &trans          &kp ENTER        &trans           &mmv MOVE_RIGHT  &rgb_ug RGB_BRI  &rgb_ug RGB_BRD  &kp INSERT  &kp F11    &kp F12           &trans
-&kp C_PP  &trans       &trans          &trans          &trans           &trans           &mkp LCLK        &trans           &trans           &trans      &trans     &trans
+&kp F1            &kp F2       &kp F3          &kp F4          &kp F5           &kp F6           &mmv MOVE_UP     &kp F7     &kp F8    &kp F9      &kp F10    &kp F11           &kp F12
+&trans            &kp PAGE_UP  &kp BACKSPACE   &kp UP_ARROW    &kp DEL          &kp PAGE_DOWN    &mmv MOVE_DOWN   &kp PG_UP  &kp END   &kp UP      &kp HOME   &kp MINUS         &kp EQUAL
+&kp LEFT_SHIFT    &kp HOME     &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp END          &mmv MOVE_LEFT   &kp PG_DN  &kp LEFT  &kp DOWN    &kp RIGHT  &kp LEFT_BRACKET  &kp RIGHT_BRACKET
+&kp LEFT_CONTROL  &trans       &kp TAB         &trans          &kp ENTER        &trans           &mmv MOVE_RIGHT  &trans     &trans    &kp INSERT  &trans     &trans            &trans
+&kp C_PP          &trans       &trans          &trans          &trans           &trans           &mkp LCLK        &trans     &trans    &trans      &trans     &trans
             >;
 
             display-name = "nav";
@@ -287,18 +299,6 @@
             label = "sys";
         };
 
-        mine {
-            bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-            >;
-
-            label = "mine";
-        };
-
         game {
             display-name = "game";
             bindings = <
@@ -306,7 +306,7 @@
 &kp TAB           &kp Q      &kp W         &kp E         &kp R   &kp T        &kp DOWN_ARROW   &kp Y      &kp U      &kp I      &kp O            &kp P          &kp BSLH
 &kp LEFT_SHIFT    &kp A      &kp S         &kp D         &kp F   &kp G        &kp LEFT_ARROW   &kp H      &kp J      &kp K      &kp L            &kp SEMI       &kp APOS
 &kp LEFT_CONTROL  &kp Z      &kp X         &kp C         &kp V   &kp B        &kp RIGHT_ARROW  &kp N      &kp M      &kp COMMA  &kp DOT          &kp FSLH       &kp ENTER
-&kp C_MUTE        &kp LCTRL  &kp LEFT_GUI  &kp LEFT_ALT  &mo 1   &kp SPACE    &kp ENTER        &kp SPACE  &kp ENTER  &mo 2      &kp RIGHT_SHIFT  &kp BACKSPACE
+&kp C_MUTE        &kp LCTRL  &kp LEFT_GUI  &kp LEFT_ALT  &mo 2   &kp SPACE    &kp ENTER        &kp SPACE  &kp ENTER  &mo 3      &kp RIGHT_SHIFT  &kp BACKSPACE
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
@@ -317,8 +317,8 @@
         compatible = "zmk,conditional-layers";
 
         activate_sys {
-            if-layers = <1 2>;
-            then-layer = <3>;
+            if-layers = <2 3>;
+            then-layer = <4>;
         };
     };
 };
