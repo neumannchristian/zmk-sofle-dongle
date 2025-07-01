@@ -403,7 +403,7 @@ combos:
 - p: [35, 36]
   k: )
   l: [querty]
-- p: [15, 16]
+- p: [16, 17]
   k: $$mdi:keyboard-esc$$
   l: [querty]
 - p: [28, 29]
