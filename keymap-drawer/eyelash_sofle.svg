@@ -665,6 +665,7 @@ rect.held, rect.combo.held {
 <g class="combo combopos-5">
 <rect rx="6" ry="6" x="154" y="130" width="28" height="26" class="combo"/>
 <use href="#mdi:keyboard-tab" xlink:href="#mdi:keyboard-tab" x="159" y="134" height="18" width="18.0" class="combo tap glyph mdi:keyboard-tab"/>
+<use href="#mdi:apple-keyboard-option" xlink:href="#mdi:apple-keyboard-option" x="160" y="140" height="15" width="15.0" class="combo hold glyph mdi:apple-keyboard-option"/>
 </g>
 <g class="combo combopos-6">
 <rect rx="6" ry="6" x="154" y="186" width="28" height="26" class="combo"/>

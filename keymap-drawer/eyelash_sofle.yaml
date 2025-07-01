@@ -407,7 +407,7 @@ combos:
   k: $$mdi:keyboard-esc$$
   l: [querty]
 - p: [28, 29]
-  k: $$mdi:keyboard-tab$$
+  k: {t: '$$mdi:keyboard-tab$$', h: 'Sft+$$mdi:apple-keyboard-option$$'}
   l: [querty]
 - p: [41, 42]
   k: {t: C, h: '$$mdi:apple-keyboard-command$$'}
