@@ -240,9 +240,9 @@ layers:
   - '&'
   - (
   - )
+  - _
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '=', s: +}
   - KP 1
   - KP 2
   - KP 3
@@ -281,8 +281,8 @@ layers:
   - RGB SPI
   - RGB SPD
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: querty, h: toggle}
+  - {t: game, h: toggle}
   - F11
   - F12
   - _
@@ -381,7 +381,7 @@ layers:
   - $$mdi:volume-off$$
   - $$mdi:apple-keyboard-control$$
   - $$mdi:apple-keyboard-command$$
-  - $$mdi:apple-keyboard-option$$
+  - nav
   - nav
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
