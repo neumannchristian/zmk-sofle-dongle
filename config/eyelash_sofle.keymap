@@ -96,7 +96,7 @@
 
         para_left {
             bindings = <&kp LEFT_PARENTHESIS>;
-            key-positions = <34 35>;
+            key-positions = <28 30>;
             require-prior-idle-ms = <150>;
             layers = <0>;
             timeout-ms = <18>;
@@ -104,9 +104,10 @@
 
         para_right {
             bindings = <&kp RIGHT_PARENTHESIS>;
-            key-positions = <35 36>;
+            key-positions = <34 36>;
             require-prior-idle-ms = <150>;
             layers = <0>;
+            timeout-ms = <18>;
         };
 
         escape {
@@ -119,7 +120,7 @@
 
         tab {
             bindings = <&hrm_l LS(LEFT_ALT) TAB>;
-            key-positions = <28 29>;
+            key-positions = <>;
             require-prior-idle-ms = <150>;
             layers = <0>;
             timeout-ms = <18>;
@@ -143,7 +144,7 @@
 
         cut {
             bindings = <&kp LG(X)>;
-            key-positions = <43 41>;
+            key-positions = <43 41 42>;
             require-prior-idle-ms = <150>;
             layers = <0>;
             timeout-ms = <18>;
@@ -151,7 +152,7 @@
 
         l_bracket {
             bindings = <&kp LEFT_BRACKET>;
-            key-positions = <47 48>;
+            key-positions = <43 41>;
             require-prior-idle-ms = <150>;
             layers = <0>;
             timeout-ms = <18>;
@@ -159,9 +160,10 @@
 
         r_bracket {
             bindings = <&kp RIGHT_BRACKET>;
-            key-positions = <48 49>;
+            key-positions = <49 47>;
             require-prior-idle-ms = <150>;
             layers = <0>;
+            timeout-ms = <18>;
         };
 
         at {
@@ -258,6 +260,22 @@
             require-prior-idle-ms = <50>;
             layers = <0>;
             timeout-ms = <30>;
+        };
+
+        brace_left {
+            bindings = <&kp LEFT_BRACE>;
+            key-positions = <28 30>;
+            timeout-ms = <18>;
+            require-prior-idle-ms = <150>;
+            layers = <0>;
+        };
+
+        brace_right {
+            bindings = <&kp RIGHT_BRACE>;
+            key-positions = <34 36>;
+            timeout-ms = <18>;
+            require-prior-idle-ms = <150>;
+            layers = <0>;
         };
     };
 
