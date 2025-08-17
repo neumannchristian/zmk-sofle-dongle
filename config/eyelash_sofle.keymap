@@ -264,7 +264,7 @@
 
         brace_left {
             bindings = <&kp LEFT_BRACE>;
-            key-positions = <28 30>;
+            key-positions = <15 17>;
             timeout-ms = <18>;
             require-prior-idle-ms = <150>;
             layers = <0>;
@@ -272,7 +272,7 @@
 
         brace_right {
             bindings = <&kp RIGHT_BRACE>;
-            key-positions = <34 36>;
+            key-positions = <21 23>;
             timeout-ms = <18>;
             require-prior-idle-ms = <150>;
             layers = <0>;
