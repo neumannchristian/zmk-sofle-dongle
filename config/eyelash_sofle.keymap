@@ -344,6 +344,7 @@
             >;
 
             label = "num";
+            sensor-bindings = <&scroll_encoder>;
         };
 
         sys {
