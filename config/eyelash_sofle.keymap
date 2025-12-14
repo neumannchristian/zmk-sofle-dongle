@@ -288,7 +288,7 @@
 &kp TAB                           &kp Q                  &kp W              &kp E              &kp R                &kp T        &kp DOWN_ARROW   &kp Y      &kp U                 &kp I               &kp O               &kp P                      &kp LEFT_BRACKET
 &hrm_l LEFT_SHIFT GRAVE           &hrm_l LEFT_CONTROL A  &hrm_l LEFT_ALT S  &hrm_l LEFT_GUI D  &hrm_l LEFT_SHIFT F  &kp G        &kp LEFT_ARROW   &kp H      &hrm_r RIGHT_SHIFT J  &hrm_r RIGHT_GUI K  &hrm_r RIGHT_ALT L  &hrm_r RIGHT_CONTROL SEMI  &hrm_r RIGHT_SHIFT APOS
 &hrm_l LEFT_CONTROL LEFT_BRACKET  &kp Z                  &kp X              &kp C              &kp V                &kp B        &kp RIGHT_ARROW  &kp N      &kp M                 &kp COMMA           &kp DOT             &kp FSLH                   &hrm_r RIGHT_CONTROL BACKSLASH
-&kp C_MUTE                        &kp LEFT_CONTROL       &kp LEFT_GUI       &mo 3              &kp LEFT_ALT         &kp SPACE    &kp ENTER        &kp SPACE  &kp ENTER             &mo 4               &kp BACKSPACE       &kp RIGHT_SHIFT
+&kp C_MUTE                        &kp LEFT_CONTROL       &kp LEFT_GUI       &mo 5              &kp LEFT_ALT         &kp SPACE    &kp ENTER        &kp SPACE  &kp ENTER             &mo 6               &kp BACKSPACE       &kp RIGHT_SHIFT
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
@@ -303,7 +303,7 @@
 &kp TAB           &kp Q      &kp W         &kp E   &kp R         &kp T        &kp DOWN_ARROW   &kp Y      &kp U      &kp I      &kp O            &kp P          &kp BSLH
 &kp LEFT_SHIFT    &kp A      &kp S         &kp D   &kp F         &kp G        &kp LEFT_ARROW   &kp H      &kp J      &kp K      &kp L            &kp SEMI       &kp APOS
 &kp LEFT_CONTROL  &kp Z      &kp X         &kp C   &kp V         &kp B        &kp RIGHT_ARROW  &kp N      &kp M      &kp COMMA  &kp DOT          &kp FSLH       &kp ENTER
-&kp C_MUTE        &kp LCTRL  &kp LEFT_GUI  &mo 3   &kp LEFT_ALT  &kp SPACE    &kp ENTER        &kp SPACE  &kp ENTER  &mo 4      &kp RIGHT_SHIFT  &kp BACKSPACE
+&kp C_MUTE        &kp LCTRL  &kp LEFT_GUI  &mo 5   &kp LEFT_ALT  &kp SPACE    &kp ENTER        &kp SPACE  &kp ENTER  &mo 6      &kp RIGHT_SHIFT  &kp BACKSPACE
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
@@ -311,14 +311,35 @@
 
         mine {
             bindings = <
-&trans  &trans  &trans  &trans    &trans    &trans      &trans  &trans  &trans  &trans     &trans   &trans  &trans
-&trans  &kp J   &kp L   &kp U     &kp A     &kp Q       &trans  &kp W   &kp B   &kp D      &kp G    &kp Y   &kp Z
-&trans  &kp C   &kp R   &kp I     &kp E     &kp O       &trans  &kp M   &kp N   &kp T      &kp S    &kp H   &trans
-&trans  &kp V   &kp X   &kp LBKT  &kp APOS  &kp SEMI    &trans  &kp P   &kp F   &kp COMMA  &kp DOT  &kp K   &trans
-&trans  &trans  &trans  &trans    &trans    &trans      &trans  &trans  &trans  &trans     &trans   &trans
+&trans  &trans          &trans             &trans             &trans               &trans      &trans  &trans  &trans                &trans              &trans              &trans          &trans
+&trans  &kp J           &kp L              &kp U              &kp A                &kp Q       &trans  &kp W   &kp B                 &kp D               &kp G               &kp Y           &kp Z
+&trans  &hrm_l LCTRL C  &hrm_l LEFT_ALT R  &hrm_l LEFT_GUI I  &hrm_l LEFT_SHIFT E  &kp O       &trans  &kp M   &hrm_r RIGHT_SHIFT N  &hrm_r RIGHT_GUI T  &hrm_r RIGHT_ALT S  &hrm_r RCTRL H  &trans
+&trans  &kp V           &kp X              &kp LBKT           &kp APOS             &kp SEMI    &trans  &kp P   &kp F                 &kp COMMA           &kp DOT             &kp K           &trans
+&trans  &trans          &trans             &mo 5              &mo 4                &trans      &trans  &trans  &trans                &trans              &trans              &trans
             >;
 
             label = "mine";
+        };
+
+        noted {
+            label = "noted";
+            bindings = <
+&trans  &trans          &trans             &trans             &trans               &trans      &trans  &trans  &trans                &trans              &trans              &trans          &trans
+&trans  &kp Z           &kp Y              &kp U              &kp A                &kp Q       &trans  &kp P   &kp B                 &kp M               &kp L               &kp F           &kp J
+&trans  &hrm_l LCTRL C  &hrm_l LEFT_ALT S  &hrm_l LEFT_GUI I  &hrm_l LEFT_SHIFT E  &kp O       &trans  &kp D   &hrm_r RIGHT_SHIFT T  &hrm_r RIGHT_GUI N  &hrm_r RIGHT_ALT R  &hrm_r RCTRL H  &trans
+&trans  &kp V           &kp X              &kp LBKT           &kp APOS             &kp SEMI    &trans  &kp W   &kp G                 &kp COMMA           &kp DOT             &kp K           &trans
+&trans  &trans          &trans             &mo 5              &mo 4                &trans      &trans  &trans  &trans                &trans              &trans              &trans
+            >;
+        };
+
+        m_sym {
+            bindings = <
+&trans  &trans            &trans         &trans        &trans        &trans            &trans  &trans         &trans         &trans         &trans         &trans         &trans
+&trans  &kp LA(PERIOD)    &kp LS(UNDER)  &kp LA(LBKT)  &kp LA(RBKT)  &kp LS(LA(N6))    &trans  &kp LS(EXCL)   &kp GRAVE      &kp LS(GRAVE)  &kp LS(EQUAL)  &kp LS(AMPS)   &kp LA(L)
+&trans  &kp LS(LA(BSLH))  &kp LS(FSLH)   &kp LA(LBRC)  &kp LA(RBRC)  &kp LS(STAR)      &trans  &kp LS(QMARK)  &kp LS(LPAR)   &kp LS(RPAR)   &kp MINUS      &kp LS(COLON)  &trans
+&trans  &kp POUND         &kp LS(DLLR)   &kp LA(PIPE)  &kp LA(N)     &kp LS(EQUAL)     &trans  &kp PLUS       &kp LS(PRCNT)  &kp LS(DQT)    &kp LS(SQT)    &kp LS(SEMI)   &trans
+&trans  &trans            &trans         &trans        &trans        &trans            &trans  &trans         &trans         &trans         &trans         &trans
+            >;
         };
 
         nav {
@@ -326,7 +347,7 @@
 &kp F1            &kp F2       &kp F3          &kp F4          &kp F5           &kp F6           &mmv MOVE_UP     &kp F7     &kp F8          &kp F9        &kp F10    &kp F11         &kp F12
 &trans            &kp PAGE_UP  &kp BACKSPACE   &kp UP_ARROW    &kp DEL          &kp PAGE_DOWN    &mmv MOVE_DOWN   &kp PG_UP  &kp END         &trans        &kp HOME   &kp SCROLLLOCK  &kp C_PAUSE
 &kp LEFT_SHIFT    &kp HOME     &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp END          &mmv MOVE_LEFT   &kp LEFT   &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT  &trans          &trans
-&kp LEFT_CONTROL  &kt ESCAPE   &kp TAB         &trans          &kp ENTER        &trans           &mmv MOVE_RIGHT  &trans     &trans          &kp INSERT    &trans     &trans          &trans
+&kp LEFT_CONTROL  &kt ESCAPE   &kp TAB         &trans          &kp ENTER        &trans           &mmv MOVE_RIGHT  &mkp MB2   &mkp MB3        &kp INSERT    &trans     &trans          &trans
 &kp C_PP          &trans       &trans          &trans          &trans           &trans           &mkp LCLK        &trans     &trans          &trans        &trans     &trans
             >;
 
@@ -351,7 +372,7 @@
             bindings = <
 &out OUT_BLE    &bt BT_SEL 0     &bt BT_SEL 1     &bt BT_SEL 2     &bt BT_SEL 3     &bt BT_SEL 4       &mmv MOVE_UP     &kp F6  &kp F7  &kp F8      &kp F9     &kp F10      &trans
 &out OUT_USB    &bt BT_CLR       &bt BT_CLR_ALL   &trans           &rgb_ug RGB_SPI  &rgb_ug RGB_SPD    &mmv MOVE_DOWN   &to 0   &to 1   &kp F11     &kp F12    &kp UNDER    &kp PLUS
-&rgb_ug RGB_ON  &rgb_ug RGB_OFF  &rgb_ug RGB_EFF  &rgb_ug RGB_EFR  &rgb_ug RGB_BRI  &rgb_ug RGB_BRD    &mmv MOVE_LEFT   &trans  &trans  &trans      &trans     &kp LBRC     &kp RBRC
+&rgb_ug RGB_ON  &rgb_ug RGB_OFF  &rgb_ug RGB_EFF  &rgb_ug RGB_EFR  &rgb_ug RGB_BRI  &rgb_ug RGB_BRD    &mmv MOVE_LEFT   &to 3   &to 0   &to 2       &to 1      &kp LBRC     &kp RBRC
 &trans          &sys_reset       &trans           &bootloader      &trans           &trans             &mmv MOVE_RIGHT  &trans  &trans  &sys_reset  &soft_off  &bootloader  &trans
 &trans          &trans           &trans           &trans           &trans           &trans             &mkp LCLK        &trans  &trans  &trans      &trans     &trans
             >;
@@ -365,8 +386,8 @@
         compatible = "zmk,conditional-layers";
 
         activate_sys {
-            if-layers = <3 4>;
-            then-layer = <5>;
+            if-layers = <5 6>;
+            then-layer = <7>;
         };
     };
 };
