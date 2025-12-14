@@ -311,11 +311,11 @@
 
         mine {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans     &trans   &trans  &trans
-&trans  &kp J   &kp L   &kp U   &kp A   &kp Q     &trans  &kp W   &kp B   &kp D      &kp G    &kp Y   &kp Z
-&trans  &kp C   &kp R   &kp I   &kp E   &kp O     &trans  &kp M   &kp N   &kp T      &kp S    &kp H   &trans
-&trans  &kp V   &kp X   &trans  &trans  &trans    &trans  &kp P   &kp F   &kp COMMA  &kp DOT  &kp K   &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans     &trans   &trans
+&trans  &trans  &trans  &trans    &trans    &trans      &trans  &trans  &trans  &trans     &trans   &trans  &trans
+&trans  &kp J   &kp L   &kp U     &kp A     &kp Q       &trans  &kp W   &kp B   &kp D      &kp G    &kp Y   &kp Z
+&trans  &kp C   &kp R   &kp I     &kp E     &kp O       &trans  &kp M   &kp N   &kp T      &kp S    &kp H   &trans
+&trans  &kp V   &kp X   &kp LBKT  &kp APOS  &kp SEMI    &trans  &kp P   &kp F   &kp COMMA  &kp DOT  &kp K   &trans
+&trans  &trans  &trans  &trans    &trans    &trans      &trans  &trans  &trans  &trans     &trans   &trans
             >;
 
             label = "mine";
