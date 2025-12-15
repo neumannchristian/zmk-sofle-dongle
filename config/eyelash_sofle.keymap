@@ -223,6 +223,29 @@
         };
     };
 
+    macros {
+        iso_tilde: sep_tilde {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LA(N) &kp SPACE>;
+            label = "SEP_TILDE";
+        };
+
+        iso_grave: iso_grave {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LS(EQUAL) &kp SPACE>;
+            label = "ISO_GRAVE";
+        };
+
+        iso_caret: iso_caret {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LS(LA(NUMBER_6)) &kp SPACE>;
+            label = "ISO_CARET";
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
@@ -279,11 +302,13 @@
         m_sym {
             bindings = <
 &trans  &trans          &trans            &trans      &trans            &trans                 &trans  &trans            &trans      &trans             &trans            &trans            &trans
-&trans  &kp LA(PERIOD)  &kp LS(SLASH)     &kp LA(N5)  &kp LA(NUMBER_6)  &kp LS(LA(N6))         &trans  &kp RS(NUMBER_1)  &kp GRAVE   &kp LS(GRAVE)      &kp LS(N0)        &kp RS(NUMBER_6)  &kp RA(L)
+&trans  &kp LA(PERIOD)  &kp LS(SLASH)     &kp LA(N5)  &kp LA(NUMBER_6)  &iso_caret             &trans  &kp RS(NUMBER_1)  &kp GRAVE   &kp LS(GRAVE)      &kp LS(N0)        &kp RS(NUMBER_6)  &kp RA(L)
 &trans  &kp LS(LA(N7))  &kp LS(N7)        &kp LA(N8)  &kp LA(N9)        &kp LS(RIGHT_BRACE)    &trans  &kp RS(MINUS)     &kp RS(N8)  &kp RS(N9)         &kp SLASH         &kp RS(PERIOD)    &trans
-&trans  &kp BACKSLASH   &kp LS(NUMBER_4)  &kp LA(N7)  &kp LA(N)         &kp LS(EQUAL)          &trans  &kp RIGHT_BRACE   &kp RS(N5)  &kp RS(BACKSLASH)  &kp RS(NUMBER_2)  &kp RS(COMMA)     &trans
+&trans  &kp BACKSLASH   &kp LS(NUMBER_4)  &kp LA(N7)  &iso_tilde        &iso_grave             &trans  &kp RIGHT_BRACE   &kp RS(N5)  &kp RS(BACKSLASH)  &kp RS(NUMBER_2)  &kp RS(COMMA)     &trans
 &trans  &trans          &trans            &trans      &trans            &trans                 &trans  &trans            &trans      &trans             &trans            &trans
             >;
+
+            label = "sym";
         };
 
         nav {
