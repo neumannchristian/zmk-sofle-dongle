@@ -187,7 +187,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - nav
-  - m_sym
+  - sym
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -252,7 +252,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - nav
-  - m_sym
+  - sym
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -260,7 +260,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  m_sym:
+  sym:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -279,7 +279,7 @@ layers:
   - {t: Sft+/, s: 'Sft+?'}
   - {t: Alt+5, s: Alt+%}
   - Alt+6
-  - {t: Sft+Alt+6, s: Sft+Alt+^}
+  - '&iso_caret'
   - {t: '$$mdi:transfer$$', type: trans}
   - Sft+1
   - {t: '`', s: '~'}
@@ -304,8 +304,8 @@ layers:
   - {t: \, s: '|'}
   - Sft+4
   - {t: Alt+7, s: Alt+&}
-  - Alt+N
-  - {t: Sft+=, s: Sft++}
+  - '&iso_tilde'
+  - '&iso_grave'
   - {t: '$$mdi:transfer$$', type: trans}
   - '}'
   - {t: Sft+5, s: Sft+%}
