@@ -72,6 +72,13 @@
         require-prior-idle-ms = <150>;
     };
 
+    nav_to_sym: nav_to_sym {
+        compatible = "zmk,behavior-tap-dance";
+        label = "NAV_TO_SYM";
+        #binding-cells = <0>;
+        bindings = <&none>, <&none>, <&none>;
+    };
+
     behaviors {
     };
 
