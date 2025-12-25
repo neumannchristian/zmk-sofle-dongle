@@ -257,7 +257,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:keyboard-return$$', h: sym}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   sym:
@@ -322,7 +322,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held alternate}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   nav:
@@ -576,10 +576,10 @@ combos:
   k: '}'
   l: [q]
 - p: [28, 30]
-  k: Sft+(
+  k: Sft+8
   l: [mine, noted]
 - p: [34, 36]
-  k: Sft+)
+  k: Sft+9
   l: [mine, noted]
 - p: [43, 41]
   k: Alt+5
