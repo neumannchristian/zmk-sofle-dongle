@@ -63,8 +63,8 @@ layers:
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - num
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:backspace$$', type: backspace}
-  - $$mdi:apple-keyboard-shift$$
   game:
   - $$mdi:keyboard-esc$$
   - {t: '1', s: '!'}
@@ -593,3 +593,12 @@ combos:
 - p: [21, 23]
   k: Alt+9
   l: [mine, noted]
+- p: [34, 35, 36]
+  k: {t: '$$mdi:backspace$$', type: backspace}
+  l: [mine, noted]
+- p: [14, 27]
+  k: Sft+1
+  l: [mine, noted]
+- p: [33, 46]
+  k: Sft+/
+  l: [noted, mine]
