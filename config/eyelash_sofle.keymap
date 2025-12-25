@@ -101,7 +101,7 @@
             timeout-ms = <18>;
         };
 
-        l_bracket {
+        bracket_l {
             bindings = <&kp LEFT_BRACKET>;
             key-positions = <43 41>;
             require-prior-idle-ms = <150>;
@@ -109,7 +109,7 @@
             timeout-ms = <18>;
         };
 
-        r_bracket {
+        bracket_r {
             bindings = <&kp RIGHT_BRACKET>;
             key-positions = <49 47>;
             require-prior-idle-ms = <150>;
@@ -227,6 +227,54 @@
             timeout-ms = <18>;
             require-prior-idle-ms = <150>;
             layers = <0>;
+        };
+
+        para_left_neo {
+            bindings = <&kp LS(LEFT_PARENTHESIS)>;
+            key-positions = <28 30>;
+            timeout-ms = <18>;
+            require-prior-idle-ms = <150>;
+            layers = <2 3>;
+        };
+
+        para_right_neo {
+            bindings = <&kp LS(RIGHT_PARENTHESIS)>;
+            key-positions = <34 36>;
+            timeout-ms = <18>;
+            require-prior-idle-ms = <150>;
+            layers = <2 3>;
+        };
+
+        bracket_l_neo {
+            bindings = <&kp LA(N5)>;
+            key-positions = <43 41>;
+            timeout-ms = <18>;
+            require-prior-idle-ms = <150>;
+            layers = <2 3>;
+        };
+
+        bracket_r_neo {
+            bindings = <&kp LA(NUMBER_6)>;
+            key-positions = <47 49>;
+            timeout-ms = <18>;
+            require-prior-idle-ms = <150>;
+            layers = <2 3>;
+        };
+
+        brace_left_neo {
+            bindings = <&kp LA(N8)>;
+            key-positions = <15 17>;
+            timeout-ms = <18>;
+            require-prior-idle-ms = <150>;
+            layers = <2 3>;
+        };
+
+        brace_right_neo {
+            bindings = <&kp LA(N9)>;
+            key-positions = <21 23>;
+            timeout-ms = <18>;
+            require-prior-idle-ms = <150>;
+            layers = <2 3>;
         };
     };
 
