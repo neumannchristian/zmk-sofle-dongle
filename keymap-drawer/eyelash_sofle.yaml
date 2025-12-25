@@ -575,3 +575,21 @@ combos:
 - p: [21, 23]
   k: '}'
   l: [q]
+- p: [28, 30]
+  k: Sft+(
+  l: [mine, noted]
+- p: [34, 36]
+  k: Sft+)
+  l: [mine, noted]
+- p: [43, 41]
+  k: Alt+5
+  l: [mine, noted]
+- p: [47, 49]
+  k: Alt+6
+  l: [mine, noted]
+- p: [15, 17]
+  k: Alt+8
+  l: [mine, noted]
+- p: [21, 23]
+  k: Alt+9
+  l: [mine, noted]
