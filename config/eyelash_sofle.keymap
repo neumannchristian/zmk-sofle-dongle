@@ -230,17 +230,17 @@
         };
 
         para_left_neo {
-            bindings = <&kp LS(LEFT_PARENTHESIS)>;
+            bindings = <&kp RS(N8)>;
             key-positions = <28 30>;
-            timeout-ms = <18>;
+            timeout-ms = <47>;
             require-prior-idle-ms = <150>;
             layers = <2 3>;
         };
 
         para_right_neo {
-            bindings = <&kp LS(RIGHT_PARENTHESIS)>;
+            bindings = <&kp RS(N9)>;
             key-positions = <34 36>;
-            timeout-ms = <18>;
+            timeout-ms = <47>;
             require-prior-idle-ms = <150>;
             layers = <2 3>;
         };
@@ -248,7 +248,7 @@
         bracket_l_neo {
             bindings = <&kp LA(N5)>;
             key-positions = <43 41>;
-            timeout-ms = <18>;
+            timeout-ms = <47>;
             require-prior-idle-ms = <150>;
             layers = <2 3>;
         };
@@ -256,7 +256,7 @@
         bracket_r_neo {
             bindings = <&kp LA(NUMBER_6)>;
             key-positions = <47 49>;
-            timeout-ms = <18>;
+            timeout-ms = <47>;
             require-prior-idle-ms = <150>;
             layers = <2 3>;
         };
@@ -272,7 +272,7 @@
         brace_right_neo {
             bindings = <&kp LA(N9)>;
             key-positions = <21 23>;
-            timeout-ms = <18>;
+            timeout-ms = <47>;
             require-prior-idle-ms = <150>;
             layers = <2 3>;
         };
@@ -281,7 +281,7 @@
             bindings = <&kp BACKSPACE>;
             key-positions = <34 35 36>;
             layers = <2 3>;
-            timeout-ms = <18>;
+            timeout-ms = <25>;
             require-prior-idle-ms = <150>;
         };
 
@@ -289,14 +289,14 @@
             bindings = <&kp LS(NUMBER_1)>;
             key-positions = <14 27>;
             layers = <2 3>;
-            timeout-ms = <18>;
+            timeout-ms = <47>;
             require-prior-idle-ms = <150>;
         };
 
         underscore_neo {
             bindings = <&kp LS(SLASH)>;
             key-positions = <33 46>;
-            timeout-ms = <30>;
+            timeout-ms = <47>;
             require-prior-idle-ms = <150>;
             layers = <3 2>;
         };
@@ -374,7 +374,7 @@
 &trans  &kp Y           &kp Z              &kp U              &kp A                &kp Q       &trans  &kp P   &kp B                 &kp M               &kp L               &kp F           &kp J
 &trans  &hrm_l LCTRL C  &hrm_l LEFT_ALT S  &hrm_l LEFT_GUI I  &hrm_l LEFT_SHIFT E  &kp O       &trans  &kp D   &hrm_r RIGHT_SHIFT T  &hrm_r RIGHT_GUI N  &hrm_r RIGHT_ALT R  &hrm_r RCTRL H  &trans
 &trans  &kp V           &kp X              &kp LBKT           &kp APOS             &kp SEMI    &trans  &kp W   &kp G                 &kp COMMA           &kp DOT             &kp K           &trans
-&trans  &trans          &trans             &mo 5              &mo 4                &trans      &trans  &trans  &trans                &lt 4 RET           &trans              &trans
+&trans  &trans          &trans             &mo 5              &mo 4                &trans      &trans  &trans  &trans                &trans              &trans              &trans
             >;
         };
 
