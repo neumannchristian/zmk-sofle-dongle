@@ -361,7 +361,7 @@
 &trans  &kp J           &kp L              &kp U              &kp A                &kp Q       &trans  &kp W   &kp B                 &kp D               &kp G               &kp Z           &kp Y
 &trans  &hrm_l LCTRL C  &hrm_l LEFT_ALT R  &hrm_l LEFT_GUI I  &hrm_l LEFT_SHIFT E  &kp O       &trans  &kp M   &hrm_r RIGHT_SHIFT N  &hrm_r RIGHT_GUI T  &hrm_r RIGHT_ALT S  &hrm_r RCTRL H  &trans
 &trans  &kp V           &kp X              &kp LBKT           &kp APOS             &kp SEMI    &trans  &kp P   &kp F                 &kp COMMA           &kp DOT             &kp K           &trans
-&trans  &trans          &trans             &mo 6              &mo 5                &trans      &trans  &trans  &lt 5 RETURN          &trans              &trans              &trans
+&trans  &mo 8           &trans             &mo 6              &mo 5                &trans      &trans  &trans  &lt 5 RETURN          &trans              &trans              &trans
             >;
 
             label = "mine";
@@ -374,7 +374,7 @@
 &trans  &kp Y           &kp Z              &kp U              &kp A                &kp Q          &trans  &kp P        &kp B                 &kp M               &kp L               &kp F           &kp J
 &trans  &hrm_l LCTRL C  &hrm_l LEFT_ALT S  &hrm_l LEFT_GUI I  &hrm_l LEFT_SHIFT E  &kp O          &trans  &kp D        &hrm_r RIGHT_SHIFT T  &hrm_r RIGHT_GUI N  &hrm_r RIGHT_ALT R  &hrm_r RCTRL H  &trans
 &trans  &kp V           &kp X              &kp LBKT           &kp APOS             &kp SEMI       &trans  &kp W        &kp G                 &kp COMMA           &kp DOT             &kp K           &trans
-&trans  &trans          &trans             &mo 6              &mo 5                &lt 4 SPACE    &trans  &lt 4 SPACE  &lt 5 RETURN          &trans              &trans              &trans
+&trans  &mo 8           &trans             &mo 6              &mo 5                &lt 4 SPACE    &trans  &lt 4 SPACE  &lt 5 RETURN          &trans              &trans              &trans
             >;
         };
 
@@ -427,11 +427,24 @@
             sensor-bindings = <&scroll_encoder>;
         };
 
+        lnum {
+            label = "lnum";
+            bindings = <
+&trans  &trans           &trans           &trans           &trans           &trans           &trans  &kp KP_NUMLOCK  &trans           &trans           &trans           &trans           &trans
+&trans  &kp KP_MULTIPLY  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_DIVIDE    &trans  &kp KP_DIVIDE   &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_MULTIPLY  &trans
+&trans  &kp KP_PLUS      &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp KP_MINUS     &trans  &kp KP_MINUS    &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp KP_PLUS      &trans
+&trans  &kp KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp KP_EQUAL     &trans  &kp KP_EQUAL    &kp KP_NUMBER_1  &kp KP_N2        &kp KP_NUMBER_3  &kp KP_N0        &trans
+&trans  &trans           &trans           &trans           &trans           &trans           &trans  &trans          &trans           &trans           &trans           &trans
+            >;
+
+            sensor-bindings = <&scroll_encoder>;
+        };
+
         sys {
             bindings = <
 &out OUT_BLE    &bt BT_SEL 0     &bt BT_SEL 1     &bt BT_SEL 2     &bt BT_SEL 3     &bt BT_SEL 4       &mmv MOVE_UP     &kp F6  &kp F7  &kp F8      &kp F9     &kp F10      &trans
 &out OUT_USB    &bt BT_CLR       &bt BT_CLR_ALL   &trans           &rgb_ug RGB_SPI  &rgb_ug RGB_SPD    &mmv MOVE_DOWN   &to 0   &to 1   &kp F11     &kp F12    &kp UNDER    &kp PLUS
-&rgb_ug RGB_ON  &rgb_ug RGB_OFF  &rgb_ug RGB_EFF  &rgb_ug RGB_EFR  &rgb_ug RGB_BRI  &rgb_ug RGB_BRD    &mmv MOVE_LEFT   &to 3   &to 0   &to 2       &to 1      &kp LBRC     &kp RBRC
+&rgb_ug RGB_ON  &rgb_ug RGB_OFF  &rgb_ug RGB_EFF  &rgb_ug RGB_EFR  &rgb_ug RGB_BRI  &rgb_ug RGB_BRD    &mmv MOVE_LEFT   &to 2   &to 0   &to 3       &to 1      &kp LBRC     &kp RBRC
 &trans          &sys_reset       &trans           &bootloader      &trans           &trans             &mmv MOVE_RIGHT  &trans  &trans  &sys_reset  &soft_off  &bootloader  &trans
 &trans          &trans           &trans           &trans           &trans           &trans             &mkp LCLK        &trans  &trans  &trans      &trans     &trans
             >;
@@ -446,7 +459,7 @@
 
         activate_sys {
             if-layers = <6 7>;
-            then-layer = <8>;
+            then-layer = <9>;
         };
     };
 };
