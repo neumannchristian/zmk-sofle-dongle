@@ -184,7 +184,7 @@ layers:
   - K
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - lnum
   - {t: '$$mdi:transfer$$', type: trans}
   - nav
   - sym
@@ -249,7 +249,7 @@ layers:
   - K
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - lnum
   - {t: '$$mdi:transfer$$', type: trans}
   - nav
   - sym
@@ -520,6 +520,71 @@ layers:
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
+  lnum:
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - KP NUMLOCK
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - KP MULTIPLY
+  - KP 7
+  - KP 8
+  - KP 9
+  - KP DIVIDE
+  - {t: '$$mdi:transfer$$', type: trans}
+  - KP DIVIDE
+  - KP 7
+  - KP 8
+  - KP 9
+  - KP MULTIPLY
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - KP PLUS
+  - KP 4
+  - KP 5
+  - KP 6
+  - KP MINUS
+  - {t: '$$mdi:transfer$$', type: trans}
+  - KP MINUS
+  - KP 4
+  - KP 5
+  - KP 6
+  - KP PLUS
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - KP 0
+  - KP 1
+  - KP 2
+  - KP 3
+  - KP EQUAL
+  - {t: '$$mdi:transfer$$', type: trans}
+  - KP EQUAL
+  - KP 1
+  - KP 2
+  - KP 3
+  - KP 0
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   sys:
   - OUT BLE
   - {h: '1', s: '$$mdi:bluetooth-connect$$'}
@@ -554,9 +619,9 @@ layers:
   - RGB BRI
   - RGB BRD
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
-  - {t: noted, h: toggle}
-  - {t: q, h: toggle}
   - {t: mine, h: toggle}
+  - {t: q, h: toggle}
+  - {t: noted, h: toggle}
   - {t: game, h: toggle}
   - '{'
   - '}'
