@@ -732,3 +732,9 @@ combos:
 - p: [33, 46]
   k: Sft+/
   l: [noted, mine]
+- p: [15, 28]
+  k: AltGr+L
+  l: [mine, noted]
+- p: [16, 29]
+  k: {t: \, s: '|'}
+  l: [mine, noted]

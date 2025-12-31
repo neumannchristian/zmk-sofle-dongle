@@ -1470,6 +1470,17 @@ rect.held, rect.combo.held {
 <rect rx="6" ry="6" x="602" y="162" width="28" height="26" class="combo"/>
 <text x="616" y="175" class="combo tap">Sft+/</text>
 </g>
+<g class="combo combopos-9">
+<rect rx="6" ry="6" x="126" y="106" width="28" height="26" class="combo"/>
+<text x="140" y="119" class="combo tap">
+<tspan x="140" dy="-0.6em">AltGr+</tspan><tspan x="140" dy="1.2em">L</tspan>
+</text>
+</g>
+<g class="combo combopos-10">
+<rect rx="6" ry="6" x="182" y="99" width="28" height="26" class="combo"/>
+<text x="196" y="112" class="combo tap">\</text>
+<text x="196" y="101" class="combo shifted">|</text>
+</g>
 </g>
 </g>
 <g transform="translate(40, 1165)" class="layer-noted">
@@ -1865,6 +1876,17 @@ rect.held, rect.combo.held {
 <g class="combo combopos-8">
 <rect rx="6" ry="6" x="602" y="162" width="28" height="26" class="combo"/>
 <text x="616" y="175" class="combo tap">Sft+/</text>
+</g>
+<g class="combo combopos-9">
+<rect rx="6" ry="6" x="126" y="106" width="28" height="26" class="combo"/>
+<text x="140" y="119" class="combo tap">
+<tspan x="140" dy="-0.6em">AltGr+</tspan><tspan x="140" dy="1.2em">L</tspan>
+</text>
+</g>
+<g class="combo combopos-10">
+<rect rx="6" ry="6" x="182" y="99" width="28" height="26" class="combo"/>
+<text x="196" y="112" class="combo tap">\</text>
+<text x="196" y="101" class="combo shifted">|</text>
 </g>
 </g>
 </g>
