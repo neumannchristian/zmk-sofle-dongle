@@ -281,7 +281,7 @@
             bindings = <&kp BACKSPACE>;
             key-positions = <34 35 36>;
             layers = <2 3>;
-            timeout-ms = <25>;
+            timeout-ms = <30>;
             require-prior-idle-ms = <150>;
         };
 
@@ -299,6 +299,22 @@
             timeout-ms = <47>;
             require-prior-idle-ms = <150>;
             layers = <3 2>;
+        };
+
+        at_neo {
+            bindings = <&kp RA(L)>;
+            key-positions = <15 28>;
+            timeout-ms = <47>;
+            require-prior-idle-ms = <150>;
+            layers = <2 3>;
+        };
+
+        hash_neo {
+            bindings = <&kp BACKSLASH>;
+            key-positions = <16 29>;
+            timeout-ms = <47>;
+            require-prior-idle-ms = <150>;
+            layers = <2 3>;
         };
     };
 
