@@ -375,7 +375,7 @@
 
         d_quote_neo {
             bindings = <&kp RS(NUMBER_2)>;
-            key-positions = <36 49>;
+            key-positions = <35 48>;
             timeout-ms = <47>;
             require-prior-idle-ms = <150>;
             layers = <2 3>;
