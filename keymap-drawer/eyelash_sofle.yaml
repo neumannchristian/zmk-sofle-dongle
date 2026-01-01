@@ -765,3 +765,6 @@ combos:
 - p: [31, 44]
   k: '&iso_grave'
   l: [mine, noted]
+- p: [26, 38]
+  k: {t: CLCK, h: toggle}
+  l: [mine, noted]
