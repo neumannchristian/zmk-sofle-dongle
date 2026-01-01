@@ -184,8 +184,8 @@ layers:
   - K
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - lnum
   - {t: '$$mdi:transfer$$', type: trans}
+  - lnum
   - nav
   - sym
   - {t: '$$mdi:transfer$$', type: trans}
@@ -249,8 +249,8 @@ layers:
   - K
   - {t: Sft+-, h: '$$mdi:apple-keyboard-control$$', s: Sft+_}
   - {t: '$$mdi:transfer$$', type: trans}
-  - lnum
   - {t: '$$mdi:transfer$$', type: trans}
+  - lnum
   - nav
   - sym
   - {t: '$$mdi:keyboard-space$$', h: mno}
@@ -574,8 +574,8 @@ layers:
   - KP 0
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -751,10 +751,10 @@ combos:
   k: Sft+6
   l: [mine, noted]
 - p: [16, 30]
-  k: Alt+5
+  k: {t: '`', s: '~'}
   l: [mine, noted]
 - p: [22, 34]
-  k: Alt+5
+  k: Sft+`
   l: [mine, noted]
 - p: [36, 49]
   k: Sft+\
