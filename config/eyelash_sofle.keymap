@@ -388,6 +388,14 @@
             require-prior-idle-ms = <150>;
             layers = <2 3>;
         };
+
+        caps_lock_neo {
+            bindings = <&kt CLCK>;
+            key-positions = <26 38>;
+            layers = <2 3>;
+            timeout-ms = <47>;
+            require-prior-idle-ms = <150>;
+        };
     };
 
     macros {
