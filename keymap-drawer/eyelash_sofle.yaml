@@ -723,7 +723,7 @@ combos:
 - p: [21, 23]
   k: Alt+9
   l: [mine, noted]
-- p: [34, 35, 36]
+- p: [37, 50]
   k: {t: '$$mdi:backspace$$', type: backspace}
   l: [mine, noted]
 - p: [14, 27]
@@ -737,4 +737,16 @@ combos:
   l: [mine, noted]
 - p: [16, 29]
   k: {t: \, s: '|'}
+  l: [mine, noted]
+- p: [17, 30]
+  k: Sft+4
+  l: [mine, noted]
+- p: [18, 31]
+  k: Sft+5
+  l: [mine, noted]
+- p: [20, 33]
+  k: '&iso_caret'
+  l: [mine, noted]
+- p: [21, 34]
+  k: Sft+6
   l: [mine, noted]
