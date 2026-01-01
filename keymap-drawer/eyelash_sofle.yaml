@@ -234,7 +234,7 @@ layers:
   - {t: N, h: RIGHT GUI}
   - {t: R, h: '$$mdi:apple-keyboard-option$$'}
   - {t: H, h: '$$mdi:apple-keyboard-control$$'}
-  - {t: Sft+0, h: '$$mdi:apple-keyboard-shift$$', s: Sft+)}
+  - {t: Sft+`, h: '$$mdi:apple-keyboard-shift$$', s: Sft+~}
   - {t: '$$mdi:transfer$$', type: trans}
   - V
   - X
@@ -287,7 +287,7 @@ layers:
   - Z
   - Y
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: Sft+`, h: '$$mdi:apple-keyboard-shift$$', s: Sft+~}
   - {t: H, h: '$$mdi:apple-keyboard-control$$'}
   - {t: R, h: '$$mdi:apple-keyboard-option$$'}
   - {t: N, h: '$$mdi:apple-keyboard-command$$'}
