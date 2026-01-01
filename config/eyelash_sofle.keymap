@@ -279,9 +279,9 @@
 
         backspace {
             bindings = <&kp BACKSPACE>;
-            key-positions = <34 35 36>;
+            key-positions = <37 50>;
             layers = <2 3>;
-            timeout-ms = <30>;
+            timeout-ms = <47>;
             require-prior-idle-ms = <150>;
         };
 
@@ -312,6 +312,38 @@
         hash_neo {
             bindings = <&kp BACKSLASH>;
             key-positions = <16 29>;
+            timeout-ms = <47>;
+            require-prior-idle-ms = <150>;
+            layers = <2 3>;
+        };
+
+        dollar_neo {
+            bindings = <&kp LS(NUMBER_4)>;
+            key-positions = <17 30>;
+            timeout-ms = <47>;
+            require-prior-idle-ms = <150>;
+            layers = <2 3>;
+        };
+
+        percent_neo {
+            bindings = <&kp LS(N5)>;
+            key-positions = <18 31>;
+            timeout-ms = <47>;
+            require-prior-idle-ms = <150>;
+            layers = <2 3>;
+        };
+
+        caret_neo {
+            bindings = <&iso_caret>;
+            key-positions = <20 33>;
+            timeout-ms = <47>;
+            require-prior-idle-ms = <150>;
+            layers = <2 3>;
+        };
+
+        ampersand_neo {
+            bindings = <&kp RS(NUMBER_6)>;
+            key-positions = <21 34>;
             timeout-ms = <47>;
             require-prior-idle-ms = <150>;
             layers = <2 3>;
