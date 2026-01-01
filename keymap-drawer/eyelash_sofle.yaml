@@ -234,7 +234,7 @@ layers:
   - {t: N, h: RIGHT GUI}
   - {t: R, h: '$$mdi:apple-keyboard-option$$'}
   - {t: H, h: '$$mdi:apple-keyboard-control$$'}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: Sft+0, h: '$$mdi:apple-keyboard-shift$$', s: Sft+)}
   - {t: '$$mdi:transfer$$', type: trans}
   - V
   - X
@@ -247,7 +247,7 @@ layers:
   - {t: ',', s: <}
   - {t: ., s: '>'}
   - K
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: Sft+-, h: '$$mdi:apple-keyboard-control$$', s: Sft+_}
   - {t: '$$mdi:transfer$$', type: trans}
   - lnum
   - {t: '$$mdi:transfer$$', type: trans}
@@ -749,4 +749,19 @@ combos:
   l: [mine, noted]
 - p: [21, 34]
   k: Sft+6
+  l: [mine, noted]
+- p: [16, 30]
+  k: Alt+5
+  l: [mine, noted]
+- p: [22, 34]
+  k: Alt+5
+  l: [mine, noted]
+- p: [36, 49]
+  k: Sft+\
+  l: [mine, noted]
+- p: [36, 49]
+  k: Sft+2
+  l: [mine, noted]
+- p: [31, 44]
+  k: '&iso_grave'
   l: [mine, noted]
