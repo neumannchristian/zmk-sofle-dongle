@@ -499,11 +499,11 @@
 
         nav {
             bindings = <
-&kp F1            &kp F2       &kp F3          &kp F4          &kp F5           &kp F6           &mmv MOVE_UP     &kp F7     &kp F8          &kp F9        &kp F10    &kp F11         &kp F12
-&trans            &kp PAGE_UP  &kp BACKSPACE   &kp UP_ARROW    &kp DEL          &kp PAGE_DOWN    &mmv MOVE_DOWN   &kp PG_UP  &kp END         &trans        &kp HOME   &kp SCROLLLOCK  &kp C_PAUSE
-&kp LEFT_SHIFT    &kp HOME     &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp END          &mmv MOVE_LEFT   &kp LEFT   &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT  &trans          &trans
-&kp LEFT_CONTROL  &kt ESCAPE   &kp TAB         &trans          &kp ENTER        &trans           &mmv MOVE_RIGHT  &mkp MB2   &mkp MB3        &kp INSERT    &trans     &trans          &trans
-&kp C_PP          &trans       &trans          &trans          &trans           &trans           &mkp LCLK        &trans     &kp ENTER       &trans        &trans     &trans
+&kp F1            &kp F2       &kp F3          &kp F4          &kp F5           &kp F6           &mmv MOVE_UP     &kp F7    &kp F8          &kp F9        &kp F10       &kp F11         &kp F12
+&trans            &kp PAGE_UP  &kp BACKSPACE   &kp UP_ARROW    &kp DEL          &kp PAGE_DOWN    &mmv MOVE_DOWN   &mkp MB4  &mkp MB5        &trans        &kp HOME      &kp SCROLLLOCK  &kp C_PAUSE
+&kp LEFT_SHIFT    &kp HOME     &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp END          &mmv MOVE_LEFT   &kp LEFT  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT     &trans          &trans
+&kp LEFT_CONTROL  &kt ESCAPE   &kp TAB         &trans          &kp ENTER        &trans           &mmv MOVE_RIGHT  &mkp MB1  &mkp MB2        &mkp MB3      &msc SCRL_UP  &msc SCRL_DOWN  &trans
+&kp C_PP          &trans       &trans          &trans          &trans           &trans           &mkp LCLK        &trans    &kp ENTER       &trans        &trans        &trans
             >;
 
             display-name = "nav";
