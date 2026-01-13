@@ -536,9 +536,9 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - KP MULTIPLY
-  - KP 9
-  - KP 8
   - KP 7
+  - KP 8
+  - KP 9
   - KP DIVIDE
   - {t: '$$mdi:transfer$$', type: trans}
   - KP DIVIDE
@@ -549,9 +549,9 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - KP DOT
   - KP PLUS
-  - KP 6
-  - KP 5
   - KP 4
+  - KP 5
+  - KP 6
   - KP MINUS
   - {t: '$$mdi:transfer$$', type: trans}
   - KP MINUS
@@ -562,9 +562,9 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - KP 0
-  - KP 3
-  - KP 2
   - KP 1
+  - KP 2
+  - KP 3
   - KP EQUAL
   - {t: '$$mdi:transfer$$', type: trans}
   - KP EQUAL
