@@ -535,11 +535,11 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - KP MULTIPLY
+  - KP SLASH
   - KP 7
   - KP 8
   - KP 9
-  - KP DIVIDE
+  - KP MULTIPLY
   - {t: '$$mdi:transfer$$', type: trans}
   - KP DIVIDE
   - KP 7
@@ -548,11 +548,11 @@ layers:
   - KP MULTIPLY
   - {t: '$$mdi:transfer$$', type: trans}
   - KP DOT
-  - KP PLUS
+  - KP MINUS
   - KP 4
   - KP 5
   - KP 6
-  - KP MINUS
+  - KP PLUS
   - {t: '$$mdi:transfer$$', type: trans}
   - KP MINUS
   - KP 4
