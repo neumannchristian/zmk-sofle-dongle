@@ -756,10 +756,10 @@ combos:
 - p: [22, 34]
   k: Sft+`
   l: [mine, noted]
-- p: [36, 49]
+- p: [35, 48]
   k: Sft+\
   l: [mine, noted]
-- p: [35, 48]
+- p: [36, 49]
   k: Sft+2
   l: [mine, noted]
 - p: [31, 44]
