@@ -286,7 +286,7 @@ layers:
   - U
   - Z
   - Y
-  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:keyboard-tab$$
   - {t: Sft+`, h: '$$mdi:apple-keyboard-shift$$', s: Sft+~}
   - {t: H, h: '$$mdi:apple-keyboard-control$$'}
   - {t: R, h: '$$mdi:apple-keyboard-option$$'}
