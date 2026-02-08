@@ -62,7 +62,7 @@ layers:
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - num
+  - lnum
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:backspace$$', type: backspace}
   game:
@@ -127,7 +127,7 @@ layers:
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - num
+  - lnum
   - $$mdi:apple-keyboard-shift$$
   - {t: '$$mdi:backspace$$', type: backspace}
   mine:
@@ -185,7 +185,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - lnum
+  - sys
   - nav
   - sym
   - {t: '$$mdi:transfer$$', type: trans}
@@ -250,7 +250,7 @@ layers:
   - {t: Sft+-, h: '$$mdi:apple-keyboard-control$$', s: Sft+_}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - lnum
+  - sys
   - nav
   - sym
   - {t: '$$mdi:keyboard-space$$', h: mno}
@@ -273,7 +273,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:keyboard-esc$$
   - J
   - F
   - L
@@ -455,6 +455,71 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
+  lnum:
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - KP NUMLOCK
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - KP SLASH
+  - KP 7
+  - KP 8
+  - KP 9
+  - KP MULTIPLY
+  - {t: '$$mdi:transfer$$', type: trans}
+  - KP DIVIDE
+  - KP 7
+  - KP 8
+  - KP 9
+  - KP MULTIPLY
+  - {t: '$$mdi:transfer$$', type: trans}
+  - KP DOT
+  - KP MINUS
+  - KP 4
+  - KP 5
+  - KP 6
+  - KP PLUS
+  - {t: '$$mdi:transfer$$', type: trans}
+  - KP MINUS
+  - KP 4
+  - KP 5
+  - KP 6
+  - KP PLUS
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - KP 0
+  - KP 1
+  - KP 2
+  - KP 3
+  - KP EQUAL
+  - {t: '$$mdi:transfer$$', type: trans}
+  - KP EQUAL
+  - KP 1
+  - KP 2
+  - KP 3
+  - KP 0
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   num:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -511,71 +576,6 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  lnum:
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - KP NUMLOCK
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - KP SLASH
-  - KP 7
-  - KP 8
-  - KP 9
-  - KP MULTIPLY
-  - {t: '$$mdi:transfer$$', type: trans}
-  - KP DIVIDE
-  - KP 7
-  - KP 8
-  - KP 9
-  - KP MULTIPLY
-  - {t: '$$mdi:transfer$$', type: trans}
-  - KP DOT
-  - KP MINUS
-  - KP 4
-  - KP 5
-  - KP 6
-  - KP PLUS
-  - {t: '$$mdi:transfer$$', type: trans}
-  - KP MINUS
-  - KP 4
-  - KP 5
-  - KP 6
-  - KP PLUS
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - KP 0
-  - KP 1
-  - KP 2
-  - KP 3
-  - KP EQUAL
-  - {t: '$$mdi:transfer$$', type: trans}
-  - KP EQUAL
-  - KP 1
-  - KP 2
-  - KP 3
-  - KP 0
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -640,14 +640,14 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
+  - {type: held alternate}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held}
+  - {type: held alternate}
   - $$mdi:mouse-left-click-outline$$
-  - {type: held}
+  - {type: held alternate}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held}
+  - {type: held alternate}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
 combos:
