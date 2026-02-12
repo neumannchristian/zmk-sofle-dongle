@@ -3013,6 +3013,12 @@ rect.held, rect.combo.held {
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key trans"/>
 <use href="#mdi:transfer" xlink:href="#mdi:transfer" x="-9" y="-13" height="18" width="18.0" class="key trans tap glyph mdi:transfer"/>
 </g>
+<g class="combo combopos-0">
+<rect rx="6" ry="6" x="630" y="162" width="28" height="26" class="combo"/>
+<a href="#nav">
+<text x="644" y="175" class="combo tap layer-activator">nav</text>
+</a><text x="644" y="186" class="combo hold">toggle</text>
+</g>
 </g>
 </g>
 <g transform="translate(40, 2718)" class="layer-lnum">

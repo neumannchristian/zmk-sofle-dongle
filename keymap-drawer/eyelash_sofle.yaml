@@ -770,4 +770,4 @@ combos:
   l: [mine, noted]
 - p: [33, 47]
   k: {t: nav, h: toggle}
-  l: [mine, noted]
+  l: [mine, noted, nav]
