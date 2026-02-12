@@ -410,21 +410,21 @@
         iso_tilde: sep_tilde {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LA(N) &kp LA(N)>;
+            bindings = <&kp LA(N) &kp ESCAPE>;
             label = "SEP_TILDE";
         };
 
         iso_grave: iso_grave {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LS(EQUAL) &kp LS(EQUAL)>;
+            bindings = <&kp LS(EQUAL) &kp ESCAPE>;
             label = "ISO_GRAVE";
         };
 
         iso_caret: iso_caret {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LS(LA(NUMBER_6)) &kp LS(LA(NUMBER_6))>;
+            bindings = <&kp LS(LA(NUMBER_6)) &kp ESCAPE>;
             label = "ISO_CARET";
         };
     };
