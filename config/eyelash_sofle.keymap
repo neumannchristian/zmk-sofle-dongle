@@ -396,6 +396,14 @@
             timeout-ms = <47>;
             require-prior-idle-ms = <150>;
         };
+
+        mouse_toggle {
+            bindings = <&tog 6>;
+            key-positions = <33 47>;
+            timeout-ms = <47>;
+            require-prior-idle-ms = <150>;
+            layers = <2 3>;
+        };
     };
 
     macros {
