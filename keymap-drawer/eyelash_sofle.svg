@@ -1529,6 +1529,12 @@ rect.held, rect.combo.held {
 <text x="462" y="168" class="combo tap">CLCK</text>
 <text x="462" y="179" class="combo hold">toggle</text>
 </g>
+<g class="combo combopos-21">
+<rect rx="6" ry="6" x="630" y="162" width="28" height="26" class="combo"/>
+<a href="#nav">
+<text x="644" y="175" class="combo tap layer-activator">nav</text>
+</a><text x="644" y="186" class="combo hold">toggle</text>
+</g>
 </g>
 </g>
 <g transform="translate(40, 1165)" class="layer-noted">
@@ -1981,6 +1987,12 @@ rect.held, rect.combo.held {
 <rect rx="6" ry="6" x="448" y="155" width="28" height="26" class="combo"/>
 <text x="462" y="168" class="combo tap">CLCK</text>
 <text x="462" y="179" class="combo hold">toggle</text>
+</g>
+<g class="combo combopos-21">
+<rect rx="6" ry="6" x="630" y="162" width="28" height="26" class="combo"/>
+<a href="#nav">
+<text x="644" y="175" class="combo tap layer-activator">nav</text>
+</a><text x="644" y="186" class="combo hold">toggle</text>
 </g>
 </g>
 </g>
