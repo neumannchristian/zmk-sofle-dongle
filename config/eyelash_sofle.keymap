@@ -478,18 +478,18 @@
 &trans  &kp Y           &kp Z              &kp U              &kp A                &kp Q          &trans  &kp P        &kp B                 &kp M               &kp L               &kp F           &kp J
 &trans  &hrm_l LCTRL C  &hrm_l LEFT_ALT S  &hrm_l LEFT_GUI I  &hrm_l LEFT_SHIFT E  &kp O          &trans  &kp D        &hrm_r RIGHT_SHIFT T  &hrm_r RIGHT_GUI N  &hrm_r RIGHT_ALT R  &hrm_r RCTRL H  &hrm_r RSHIFT RS(GRAVE)
 &trans  &kp V           &kp X              &kp LBKT           &kp APOS             &kp SEMI       &trans  &kp W        &kp G                 &kp COMMA           &kp DOT             &kp K           &hrm_r RCTRL RS(MINUS)
-&trans  &trans          &mo 9              &mo 6              &mo 5                &lt 4 SPACE    &trans  &lt 4 SPACE  &lt 5 RETURN          &trans              &trans              &trans
+&trans  &trans          &mo 7              &mo 6              &mo 5                &lt 4 SPACE    &trans  &lt 4 SPACE  &lt 5 RETURN          &trans              &trans              &trans
             >;
         };
 
         mno {
             label = "mno";
             bindings = <
-&trans                    &trans          &trans             &trans             &trans               &trans    &trans  &trans    &trans                &trans              &trans              &trans          &kp ESCAPE
-&kp J                     &kp F           &kp L              &kp M              &kp B                &kp P     &trans  &kp Q     &kp A                 &kp U               &kp Z               &kp Y           &kp TAB
-&mt LEFT_SHIFT LS(GRAVE)  &hrm_l LCTRL H  &hrm_l LEFT_ALT R  &hrm_l LEFT_GUI N  &hrm_l LEFT_SHIFT T  &kp D     &trans  &kp O     &hrm_r RIGHT_SHIFT E  &hrm_r RIGHT_GUI I  &hrm_r RIGHT_ALT S  &hrm_r RCTRL C  &trans
-&trans                    &kp K           &kp DOT            &kp COMMA          &kp G                &kp W     &trans  &kp SEMI  &kp APOS              &kp LBKT            &kp X               &kp V           &trans
-&trans                    &trans          &trans             &mo 6              &mo 5                &trans    &trans  &trans    &trans                &trans              &trans              &trans
+&kp MINUS                 &kp N0          &kp N9             &kp N8             &kp N7               &kp NUMBER_6    &trans  &kp N5    &kp NUMBER_4          &kp NUMBER_3        &kp NUMBER_2        &kp NUMBER_1    &kp ESCAPE
+&kp J                     &kp F           &kp L              &kp M              &kp B                &kp P           &trans  &kp Q     &kp A                 &kp U               &kp Z               &kp Y           &kp TAB
+&mt LEFT_SHIFT LS(GRAVE)  &hrm_l LCTRL H  &hrm_l LEFT_ALT R  &hrm_l LEFT_GUI N  &hrm_l LEFT_SHIFT T  &kp D           &trans  &kp O     &hrm_r RIGHT_SHIFT E  &hrm_r RIGHT_GUI I  &hrm_r RIGHT_ALT S  &hrm_r RCTRL C  &trans
+&trans                    &kp K           &kp DOT            &kp COMMA          &kp G                &kp W           &trans  &kp SEMI  &kp APOS              &kp LBKT            &kp X               &kp V           &trans
+&trans                    &trans          &trans             &mo 6              &mo 5                &trans          &trans  &trans    &trans                &trans              &trans              &trans
             >;
         };
 
