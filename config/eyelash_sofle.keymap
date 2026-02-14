@@ -489,7 +489,7 @@
 &kp J                     &kp F           &kp L              &kp M              &kp B                &kp P           &trans  &kp Q     &kp A                 &kp U               &kp Z               &kp Y           &kp TAB
 &mt LEFT_SHIFT LS(GRAVE)  &hrm_l LCTRL H  &hrm_l LEFT_ALT R  &hrm_l LEFT_GUI N  &hrm_l LEFT_SHIFT T  &kp D           &trans  &kp O     &hrm_r RIGHT_SHIFT E  &hrm_r RIGHT_GUI I  &hrm_r RIGHT_ALT S  &hrm_r RCTRL C  &trans
 &trans                    &kp K           &kp DOT            &kp COMMA          &kp G                &kp W           &trans  &kp SEMI  &kp APOS              &kp LBKT            &kp X               &kp V           &trans
-&trans                    &trans          &trans             &mo 6              &mo 5                &trans          &trans  &trans    &trans                &trans              &trans              &trans
+&trans                    &trans          &trans             &mo 6              &sl 5                &trans          &trans  &trans    &trans                &trans              &trans              &trans
             >;
         };
 
