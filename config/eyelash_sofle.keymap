@@ -410,21 +410,21 @@
         iso_tilde: sep_tilde {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LA(N) &kp ESCAPE>;
+            bindings = <&kp LA(N)>;
             label = "SEP_TILDE";
         };
 
         iso_grave: iso_grave {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LS(EQUAL) &kp ESCAPE>;
+            bindings = <&kp LS(EQUAL)>;
             label = "ISO_GRAVE";
         };
 
         iso_caret: iso_caret {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LS(LA(NUMBER_6)) &kp ESCAPE>;
+            bindings = <&kp LS(LA(NUMBER_6))>;
             label = "ISO_CARET";
         };
     };
@@ -438,7 +438,7 @@
 &kp TAB                           &kp Q                  &kp W              &kp E              &kp R                &kp T        &kp DOWN_ARROW   &kp Y      &kp U                 &kp I               &kp O               &kp P                      &kp LEFT_BRACKET
 &hrm_l LEFT_SHIFT GRAVE           &hrm_l LEFT_CONTROL A  &hrm_l LEFT_ALT S  &hrm_l LEFT_GUI D  &hrm_l LEFT_SHIFT F  &kp G        &kp LEFT_ARROW   &kp H      &hrm_r RIGHT_SHIFT J  &hrm_r RIGHT_GUI K  &hrm_r RIGHT_ALT L  &hrm_r RIGHT_CONTROL SEMI  &hrm_r RIGHT_SHIFT APOS
 &hrm_l LEFT_CONTROL LEFT_BRACKET  &kp Z                  &kp X              &kp C              &kp V                &kp B        &kp RIGHT_ARROW  &kp N      &kp M                 &kp COMMA           &kp DOT             &kp FSLH                   &hrm_r RIGHT_CONTROL BACKSLASH
-&kp C_MUTE                        &kp LEFT_CONTROL       &kp LEFT_GUI       &mo 6              &kp LEFT_ALT         &kp SPACE    &kp ENTER        &kp SPACE  &kp ENTER             &mo 7               &none               &kp BACKSPACE
+&kp C_MUTE                        &kp LEFT_CONTROL       &kp LEFT_GUI       &mo 6              &kp LEFT_ALT         &kp SPACE    &kp ENTER        &kp SPACE  &kp ENTER             &mo 8               &tog 6              &kp BACKSPACE
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
@@ -453,7 +453,7 @@
 &kp TAB           &kp Q      &kp W         &kp E   &kp R         &kp T        &kp DOWN_ARROW   &kp Y      &kp U      &kp I      &kp O            &kp P          &kp BSLH
 &kp LEFT_SHIFT    &kp A      &kp S         &kp D   &kp F         &kp G        &kp LEFT_ARROW   &kp H      &kp J      &kp K      &kp L            &kp SEMI       &kp APOS
 &kp LEFT_CONTROL  &kp Z      &kp X         &kp C   &kp V         &kp B        &kp RIGHT_ARROW  &kp N      &kp M      &kp COMMA  &kp DOT          &kp FSLH       &kp ENTER
-&kp C_MUTE        &kp LCTRL  &kp LEFT_GUI  &mo 6   &kp LEFT_ALT  &kp SPACE    &kp ENTER        &kp SPACE  &kp ENTER  &mo 7      &kp RIGHT_SHIFT  &kp BACKSPACE
+&kp C_MUTE        &kp LCTRL  &kp LEFT_GUI  &mo 6   &kp LEFT_ALT  &kp SPACE    &kp ENTER        &kp SPACE  &kp ENTER  &mo 8      &kp RIGHT_SHIFT  &kp BACKSPACE
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
@@ -465,7 +465,7 @@
 &trans  &kp J           &kp L              &kp U              &kp A                &kp Q       &trans  &kp W   &kp B                 &kp D               &kp G               &kp Z           &kp Y
 &trans  &hrm_l LCTRL C  &hrm_l LEFT_ALT R  &hrm_l LEFT_GUI I  &hrm_l LEFT_SHIFT E  &kp O       &trans  &kp M   &hrm_r RIGHT_SHIFT N  &hrm_r RIGHT_GUI T  &hrm_r RIGHT_ALT S  &hrm_r RCTRL H  &trans
 &trans  &kp V           &kp X              &kp LBKT           &kp APOS             &kp SEMI    &trans  &kp P   &kp F                 &kp COMMA           &kp DOT             &kp K           &trans
-&trans  &trans          &mo 9              &mo 6              &mo 5                &trans      &trans  &trans  &lt 5 RETURN          &trans              &trans              &trans
+&trans  &trans          &mo 7              &mo 6              &mo 5                &trans      &trans  &trans  &lt 5 RETURN          &trans              &trans              &trans
             >;
 
             label = "mine";
