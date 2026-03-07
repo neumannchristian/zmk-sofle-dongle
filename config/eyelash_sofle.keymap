@@ -562,7 +562,7 @@
         compatible = "zmk,conditional-layers";
 
         activate_sys {
-            if-layers = <6 7>;
+            if-layers = <6 8>;
             then-layer = <9>;
         };
     };
