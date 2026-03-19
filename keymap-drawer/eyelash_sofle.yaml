@@ -372,7 +372,7 @@ layers:
   - '&iso_tilde'
   - '&iso_grave'
   - {t: '$$mdi:transfer$$', type: trans}
-  - '}'
+  - KP PLUS
   - {t: Sft+5, s: Sft+%}
   - {t: Sft+\, s: Sft+|}
   - Sft+2
@@ -707,22 +707,17 @@ combos:
   l: [q]
 - p: [28, 30]
   k: Sft+8
-  l: [mine, noted]
 - p: [34, 36]
   k: Sft+9
   l: [mine, noted]
 - p: [43, 41]
   k: Alt+5
-  l: [mine, noted]
 - p: [47, 49]
   k: Alt+6
-  l: [mine, noted]
 - p: [15, 17]
   k: Alt+8
-  l: [mine, noted]
 - p: [21, 23]
   k: Alt+9
-  l: [mine, noted]
 - p: [37, 50]
   k: {t: '$$mdi:backspace$$', type: backspace}
   l: [mine, noted]
