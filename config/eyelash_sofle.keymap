@@ -234,7 +234,6 @@
             key-positions = <28 30>;
             timeout-ms = <47>;
             require-prior-idle-ms = <150>;
-            layers = <2 3>;
         };
 
         para_right_neo {
@@ -250,7 +249,6 @@
             key-positions = <43 41>;
             timeout-ms = <47>;
             require-prior-idle-ms = <150>;
-            layers = <2 3>;
         };
 
         bracket_r_neo {
@@ -258,7 +256,6 @@
             key-positions = <47 49>;
             timeout-ms = <47>;
             require-prior-idle-ms = <150>;
-            layers = <2 3>;
         };
 
         brace_left_neo {
@@ -266,7 +263,6 @@
             key-positions = <15 17>;
             timeout-ms = <18>;
             require-prior-idle-ms = <150>;
-            layers = <2 3>;
         };
 
         brace_right_neo {
@@ -274,7 +270,6 @@
             key-positions = <21 23>;
             timeout-ms = <47>;
             require-prior-idle-ms = <150>;
-            layers = <2 3>;
         };
 
         backspace {
@@ -498,7 +493,7 @@
 &trans  &trans          &trans            &trans      &trans            &trans                 &trans  &trans            &trans      &trans             &trans            &trans            &trans
 &trans  &kp LA(PERIOD)  &kp LS(SLASH)     &kp LA(N5)  &kp LA(NUMBER_6)  &iso_caret             &trans  &kp RS(NUMBER_1)  &kp GRAVE   &kp LS(GRAVE)      &kp LS(N0)        &kp RS(NUMBER_6)  &kp RA(L)
 &trans  &kp LS(LA(N7))  &kp LS(N7)        &kp LA(N8)  &kp LA(N9)        &kp LS(RIGHT_BRACE)    &trans  &kp RS(MINUS)     &kp RS(N8)  &kp RS(N9)         &kp SLASH         &kp RS(PERIOD)    &trans
-&trans  &kp BACKSLASH   &kp LS(NUMBER_4)  &kp LA(N7)  &iso_tilde        &iso_grave             &trans  &kp RIGHT_BRACE   &kp RS(N5)  &kp RS(BACKSLASH)  &kp RS(NUMBER_2)  &kp RS(COMMA)     &trans
+&trans  &kp BACKSLASH   &kp LS(NUMBER_4)  &kp LA(N7)  &iso_tilde        &iso_grave             &trans  &kp KP_PLUS       &kp RS(N5)  &kp RS(BACKSLASH)  &kp RS(NUMBER_2)  &kp RS(COMMA)     &trans
 &trans  &trans          &trans            &trans      &trans            &trans                 &trans  &trans            &trans      &trans             &trans            &trans
             >;
 
