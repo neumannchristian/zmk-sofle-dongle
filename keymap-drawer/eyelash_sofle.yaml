@@ -707,17 +707,22 @@ combos:
   l: [q]
 - p: [28, 30]
   k: Sft+8
+  l: [sys]
 - p: [34, 36]
   k: Sft+9
-  l: [mine, noted]
+  l: [sys]
 - p: [43, 41]
   k: Alt+5
+  l: [sys]
 - p: [47, 49]
   k: Alt+6
+  l: [sys]
 - p: [15, 17]
   k: Alt+8
+  l: [sys]
 - p: [21, 23]
   k: Alt+9
+  l: [sys]
 - p: [37, 50]
   k: {t: '$$mdi:backspace$$', type: backspace}
   l: [mine, noted]
